@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <title>Operaciones</title>
+    <link rel="stylesheet" href="Punto1.css">
+    <script src="js/Punto1.js"></script>
+</head>
+<body>
+    <form>
+        <H1>!ATENCION!</H1>
+        <p>Para que la pagina funcione correctamente asegurate de que las casillas deben estar en color verde</p>
+        <p>Ingresa el primer numero:</p>
+        <input type="text" name="Numero" id="numero1" onkeypress='return Validacion(event)'required/>
+        <p>Ingresa el primer numero:</p>
+        <input type="text" name="Numero" id="numero2" onkeypress='return Validacion(event)'required/>
+    </form>
+    <br>
+    <button id="btn" onclick="sumar()">Sumar</button>
+    <button id="btn" onclick="resta()">Restar</button>
+    <button id="btn" onclick="multipicacion()">Multiplicar</button>
+    <button id="btn" onclick="division()">Dividir</button>
+    <button id="btn" onclick="potencia()">Potencia</button>
+    <p>El resultado es: <label id="resultado"></label> </p>
+    <script></script>
+</body>
+</html>
