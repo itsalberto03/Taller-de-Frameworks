@@ -1,0 +1,99 @@
+html {
+    font-size: 1rem;
+  } 
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+#navbarSupportedContent{
+  background-color: #1080ff;
+}
+
+#nav{
+  background-color: #1080ff;
+}
+#tesla:hover {
+      -webkit-transform:scale(0.8);
+      transition:all .7s step-end;
+      transform:scale(0.8);
+      transition: all .7 step-end;   
+    }
+#tesla:hover {
+      transition:all .5s ;
+      overflow:hidden;
+    }
+#titulo:hover {
+      -webkit-transform:scale(0.8);
+      transition:all .7s step-end;
+      transform:scale(0.8);
+      transition: all .7 step-end;   
+    }
+#titulo:hover {
+      transition:all .5s ;
+      overflow:hidden;
+    }
+#logo1:hover {
+      -webkit-transform:scale(0.8);
+      transition:all .7s step-end;
+      transform:scale(0.8);
+      transition: all .7 step-end;   
+    }
+#logo1:hover {
+      transition:all .5s ;
+      overflow:hidden;
+    }
+#Caracteristicas{
+    width: 800px;
+    height: 400px;
+}
+#tamaño{
+    width: 800px;
+    height: 400px;
+}
+#h2{
+    height: 0%;
+    width: 15%;   
+}
+body::-webkit-scrollbar {
+	width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+	background: #363636;
+}
+#logo1{
+    width: 8%;
+    margin: 0 auto;
+}
+#tesla{
+    width: 16%;
+    margin: 0 auto;
+}
+#logo2{
+    width: 25%;
+    margin: 0 auto;
+}
+#menu{
+    margin: 0%auto;
+}
+footer{
+    background-color: #1080ff;
+}
+#pie{
+    background-color: #8cc2ff;
+}
+#fondo{
+  background-color: rgb(243, 243, 243);
+}
